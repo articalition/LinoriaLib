@@ -28,8 +28,8 @@ local Library = {
     HudRegistry = {};
 
     FontColor = Color3.fromRGB(255, 255, 255);
-    MainColor = Color3.fromRGB(28, 28, 28);
-    BackgroundColor = Color3.fromRGB(247, 247, 247);
+    MainColor = Color3.fromRGB(10, 12, 14);
+    BackgroundColor = Color3.fromRGB(28, 28, 28);
     AccentColor = Color3.fromRGB(61, 21, 133);
     OutlineColor = Color3.fromRGB(61, 21, 133);
 

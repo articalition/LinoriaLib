@@ -84,7 +84,7 @@ end;
 function Library:CreateLabel(Properties, IsHud)
     local _Instance = Library:Create('TextLabel', {
         BackgroundTransparency = 1;
-        Font = Enum.Font.Code;
+        Font = Enum.Font.SourceSansItalic;
         TextColor3 = Library.FontColor;
         TextSize = 2;
         TextStrokeTransparency = 0;

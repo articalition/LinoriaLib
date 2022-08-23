@@ -28,8 +28,8 @@ local Library = {
     HudRegistry = {};
 
     FontColor = Color3.fromRGB(255, 255, 255);
-    MainColor = Color3.fromRGB(28, 28, 28);
-    BackgroundColor = Color3.fromRGB(20, 20, 20);
+    MainColor = Color3.fromRGB(203, 203, 203);
+    BackgroundColor = Color3.fromRGB(247, 247, 247);
     AccentColor = Color3.fromRGB(61, 21, 133);
     OutlineColor = Color3.fromRGB(61, 21, 133);
 
@@ -86,7 +86,7 @@ function Library:CreateLabel(Properties, IsHud)
         BackgroundTransparency = 1;
         Font = Enum.Font.Code;
         TextColor3 = Library.FontColor;
-        TextSize = 11;
+        TextSize = 12;
         TextStrokeTransparency = 0;
     });
 
@@ -141,7 +141,7 @@ function Library:AddToolTip(InfoStr, HoverInstance)
     local Label = Library:CreateLabel({
         Position = UDim2.fromOffset(3, 1),
         Size = UDim2.fromOffset(X, Y);
-        TextSize = 10;
+        TextSize = 12;
         Text = InfoStr,
         TextColor3 = Library.FontColor,
         TextXAlignment = Enum.TextXAlignment.Left;

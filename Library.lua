@@ -84,9 +84,9 @@ end;
 function Library:CreateLabel(Properties, IsHud)
     local _Instance = Library:Create('TextLabel', {
         BackgroundTransparency = 1;
-        Font = Enum.Font.SourceSansItalic;
+        Font = Enum.Font.SourceSanssemibold;
         TextColor3 = Library.FontColor;
-        TextSize = 2;
+        TextSize = 10;
         TextStrokeTransparency = 0;
     });
 
@@ -141,7 +141,7 @@ function Library:AddToolTip(InfoStr, HoverInstance)
     local Label = Library:CreateLabel({
         Position = UDim2.fromOffset(3, 1),
         Size = UDim2.fromOffset(X, Y);
-        TextSize = 2;
+        TextSize = 10;
         Text = InfoStr,
         TextColor3 = Library.FontColor,
         TextXAlignment = Enum.TextXAlignment.Left;
